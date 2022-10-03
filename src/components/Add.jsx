@@ -35,7 +35,7 @@ const Add = () => {
                 open={open}
                 onClose={e => setOpen(false)}
             >
-                <Box width={400} height={250} bgcolor='white' p={3} borderRadius={5}>
+                <Box width={400} height={250} bgcolor={'background.default'} color={'text.primary'} p={3} borderRadius={5}>
                     <Typography variant='h6' color='gray' align='center'>
                         Create post
                     </Typography>
